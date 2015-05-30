@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'require' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'require', null ]
+6 verbose cache add name=undefined spec="require" args=["require",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'require',
+7 verbose parsed url   path: 'require',
+7 verbose parsed url   href: 'require' }
+8 silly lockFile 623e76c3-require require
+9 verbose lock require /home/febinjohnjames/.npm/623e76c3-require.lock
+10 silly lockFile 623e76c3-require require
+11 silly lockFile 623e76c3-require require
+12 verbose addNamed [ 'require', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 06722518-require require@
+15 verbose lock require@ /home/febinjohnjames/.npm/06722518-require.lock
+16 silly addNameRange { name: 'require', range: '*', hasData: false }
+17 verbose request where is /require
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d76993b2c4ebb639
+20 verbose url raw /require
+21 verbose url resolving [ 'https://registry.npmjs.org/', './require' ]
+22 verbose url resolved https://registry.npmjs.org/require
+23 verbose request where is https://registry.npmjs.org/require
+24 info trying registry request attempt 1 at 08:18:06
+25 http GET https://registry.npmjs.org/require
+26 http 200 https://registry.npmjs.org/require
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"77NAV0ZFV6DFFDBYD7ERRVVC"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '16322',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Tue, 12 May 2015 02:48:12 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1431398892.810238,VS0,VE77',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'require', range: '*', hasData: true }
+29 silly addNameRange versions [ 'require',
+29 silly addNameRange   [ '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '0.4.6',
+29 silly addNameRange     '0.4.8',
+29 silly addNameRange     '0.4.9',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '2.4.16',
+29 silly addNameRange     '2.4.17',
+29 silly addNameRange     '2.4.18' ] ]
+30 verbose addNamed [ 'require', '2.4.18' ]
+31 verbose addNamed [ '2.4.18', '2.4.18' ]
+32 silly lockFile e84f1164-require-2-4-18 require@2.4.18
+33 verbose lock require@2.4.18 /home/febinjohnjames/.npm/e84f1164-require-2-4-18.lock
+34 silly lockFile 055b935e-s-org-require-require-2-4-18-tgz https://registry.npmjs.org/require/-/require-2.4.18.tgz
+35 verbose lock https://registry.npmjs.org/require/-/require-2.4.18.tgz /home/febinjohnjames/.npm/055b935e-s-org-require-require-2-4-18-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/require/-/require-2.4.18.tgz',
+36 verbose addRemoteTarball   'd68d66f5c2a896ed14004da32ab95b6341c451af' ]
+37 info retry fetch attempt 1 at 08:18:07
+38 verbose fetch to= /tmp/npm-23902-9Q-HWaXS/registry.npmjs.org/require/-/require-2.4.18.tgz
+39 http GET https://registry.npmjs.org/require/-/require-2.4.18.tgz
+40 http 200 https://registry.npmjs.org/require/-/require-2.4.18.tgz
+41 silly lockFile 055b935e-s-org-require-require-2-4-18-tgz https://registry.npmjs.org/require/-/require-2.4.18.tgz
+42 silly lockFile 055b935e-s-org-require-require-2-4-18-tgz https://registry.npmjs.org/require/-/require-2.4.18.tgz
+43 silly lockFile e84f1164-require-2-4-18 require@2.4.18
+44 silly lockFile e84f1164-require-2-4-18 require@2.4.18
+45 silly lockFile 06722518-require require@
+46 silly lockFile 06722518-require require@
+47 silly resolved [ { name: 'require',
+47 silly resolved     description: 'javascript module management! brings node\'s require statement to the browser',
+47 silly resolved     version: '2.4.18',
+47 silly resolved     homepage: 'https://github.com/marcuswestin/require',
+47 silly resolved     main: './require',
+47 silly resolved     bin: { require: './bin/require-command.js' },
+47 silly resolved     engines: { node: '*', browsers: '*' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/marcuswestin/require.git' },
+47 silly resolved     author:
+47 silly resolved      { name: 'Marcus Westin',
+47 silly resolved        email: 'narcvs@gmail.com',
+47 silly resolved        url: 'http://marcuswest.in' },
+47 silly resolved     dependencies: { 'uglify-js': '2.3.0', std: '0.1.40' },
+47 silly resolved     devDependencies: {},
+47 silly resolved     directories: {},
+47 silly resolved     scripts: { start: 'node server.js' },
+47 silly resolved     gitHead: '65cbe0f2ed2c45cf72942edda189fe11d8754dd4',
+47 silly resolved     bugs: { url: 'https://github.com/marcuswestin/require/issues' },
+47 silly resolved     _id: 'require@2.4.18',
+47 silly resolved     _shasum: 'd68d66f5c2a896ed14004da32ab95b6341c451af',
+47 silly resolved     _from: 'require@',
+47 silly resolved     _npmVersion: '2.5.1',
+47 silly resolved     _nodeVersion: '0.10.33',
+47 silly resolved     _npmUser: { name: 'marcuswestin', email: 'narcvs@gmail.com' },
+47 silly resolved     dist:
+47 silly resolved      { shasum: 'd68d66f5c2a896ed14004da32ab95b6341c451af',
+47 silly resolved        tarball: 'http://registry.npmjs.org/require/-/require-2.4.18.tgz' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     _resolved: 'https://registry.npmjs.org/require/-/require-2.4.18.tgz' } ]
+48 info install require@2.4.18 into /usr/lib
+49 info installOne require@2.4.18
+50 verbose lib/node_modules/require unbuild
+51 verbose tar unpack /home/febinjohnjames/.npm/require/2.4.18/package.tgz
+52 silly lockFile b333a8c2-tar-usr-lib-node-modules-require tar:///usr/lib/node_modules/require
+53 verbose lock tar:///usr/lib/node_modules/require /home/febinjohnjames/.npm/b333a8c2-tar-usr-lib-node-modules-require.lock
+54 silly lockFile c16bfe59-s-npm-require-2-4-18-package-tgz tar:///home/febinjohnjames/.npm/require/2.4.18/package.tgz
+55 verbose lock tar:///home/febinjohnjames/.npm/require/2.4.18/package.tgz /home/febinjohnjames/.npm/c16bfe59-s-npm-require-2-4-18-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/require'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/require']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/require',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/require',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.13.0-49-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "require"
+61 error cwd /home/febinjohnjames/ReactJs/Chapter 3/build
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/require
+65 error fstream_path /usr/lib/node_modules/require
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/require'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]
